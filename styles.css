@@ -34,6 +34,7 @@ body {
     color: #F9FAF8;
 }
 
+/* logo and links are complete */
 .logo-and-links {
     display: flex;
     justify-content: space-between;
@@ -49,4 +50,12 @@ h1 {
 p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.content-and-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    margin: 100px 0;
 }
