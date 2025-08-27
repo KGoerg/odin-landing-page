@@ -47,7 +47,7 @@ h1 {
     font-weight: 900;
 }
 
-p {
+.content p {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -76,7 +76,7 @@ p {
     flex: basis;
 }
 
-.button {
+.content .button {
     background-color: #3882F6;
     color: white;
     padding: 10px 10px;
@@ -144,3 +144,5 @@ blockquote {
     color: #1F2937;
     flex-wrap: wrap;
 }
+
+/* CALL TO ACTION */
