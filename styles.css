@@ -20,6 +20,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* HEADER */
 .header {
     background-color: #1F2937;
     display: flex;
@@ -28,7 +29,6 @@ body {
     min-width: 800px;
 }
 
-/* logo and links are complete */
 .logo-and-links {
     display: flex;
     justify-content: space-between;
@@ -53,7 +53,6 @@ p {
     color: #E5E7EB;
 }
 
-/* Need to figure out how to get things to stop shrinking/growing */
 .content-and-image {
     display: flex;
     justify-content: space-between;
@@ -71,9 +70,9 @@ p {
 }
 
 .content-and-image img {
-    width: 400px;
+    width: 600px;
     height: auto;
-    flex: 1;
+    flex: basis;
 }
 
 .button {
@@ -87,3 +86,5 @@ p {
     text-align: center;
     flex-grow: 0;
 }
+
+/* LONG-TIME LOVES */
