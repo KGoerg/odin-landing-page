@@ -146,3 +146,21 @@ blockquote {
 }
 
 /* CALL TO ACTION */
+.volunteer {
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 25px 100px;
+}
+
+.volunteer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.volunteer .button {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
