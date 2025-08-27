@@ -60,14 +60,12 @@ p {
     align-items: flex-start;
     gap: 60px;
     margin: 100px 0;
-    min-width: 800px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 800px;
     gap: 10px;
     flex: 1;
 }
@@ -75,6 +73,7 @@ p {
 .content-and-image img {
     width: 400px;
     height: auto;
+    flex: 1;
 }
 
 .button {
