@@ -26,7 +26,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px 200px;
-    min-width: 800px;
 }
 
 .logo-and-links {
@@ -121,4 +120,27 @@ h2 {
 
 figure {
     flex: 1;
+}
+
+/* QUOTE */
+
+blockquote {
+    display: flex;
+    padding: 100px 300px 0 300px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    flex: 1;
+    align-items: center;
+}
+.quote p {
+    display: flex;
+    padding: 20px 300px 100px 300px;
+    justify-content: flex-end;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    flex-wrap: wrap;
 }
