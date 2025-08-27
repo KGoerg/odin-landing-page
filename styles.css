@@ -112,6 +112,11 @@ h2 {
     flex-wrap: wrap;
 }
 
+.adoptable-pet-images img {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
 figure {
     flex: 1;
 }
