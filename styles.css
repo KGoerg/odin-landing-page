@@ -54,6 +54,7 @@ p {
     color: #E5E7EB;
 }
 
+/* Need to figure out how to get things to stop shrinking/growing */
 .content-and-image {
     display: flex;
     justify-content: space-between;
@@ -62,9 +63,13 @@ p {
     margin: 100px 0;
 }
 
-.content,
-img {
-    flex: 1;
-}
-
 /* Time to work on the button */
+.button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 30px;
+}
