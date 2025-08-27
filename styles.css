@@ -60,7 +60,7 @@ p {
     align-items: flex-start;
     gap: 60px;
     margin: 100px 0;
-    min-width; 800px;
+    min-width: 800px;
 }
 
 .content {
@@ -69,6 +69,12 @@ p {
     align-items: flex-start;
     width: 800px;
     gap: 10px;
+    flex: 1;
+}
+
+.content-and-image img {
+    width: 400px;
+    height: auto;
 }
 
 .button {
