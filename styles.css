@@ -29,16 +29,18 @@ body {
     padding: 20px 200px;
 }
 
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
 /* logo and links are complete */
 .logo-and-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: 30px;
+    flex: 0 0 300px;
 }
 
 h1 {
@@ -59,3 +61,10 @@ p {
     gap: 60px;
     margin: 100px 0;
 }
+
+.content,
+img {
+    flex: 1;
+}
+
+/* Time to work on the button */
