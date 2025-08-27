@@ -59,6 +59,8 @@ p {
     align-items: flex-start;
     gap: 60px;
     margin: 100px 0;
+    /* Not sure if I like adding wrap here. It's a choice... */
+    flex-wrap: wrap;
 }
 
 .content {
