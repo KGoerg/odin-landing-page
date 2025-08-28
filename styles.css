@@ -9,8 +9,6 @@ a {
 }
 
 ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
     display: flex;
     gap: 20px;
@@ -26,6 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px 200px;
+    color: #F9FAF8;
 }
 
 .logo-and-links {
@@ -36,14 +35,12 @@ body {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
     margin-right: 30px;
     flex: 0 0 300px;
 }
 
 h1 {
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
 }
 
