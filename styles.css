@@ -165,7 +165,7 @@ figure {
     border-radius: 8px;
     padding: 5px 15px;
     text-align: center;
-    width: 100px;
+    min-width: 0px;
     flex-shrink: 0;
 }
 
