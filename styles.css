@@ -143,21 +143,21 @@ figure {
 /* CALL TO ACTION */
 .volunteer {
     background-color: #3882F6;
-    margin: 50px 200px;
+    margin: 100px 200px;
     padding: 25px 100px;
     display: flex;
     justify-content: space-between;
-    gap: 60px;
     align-items: center;
+    gap: 60px;
     color: #E5E7EB;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 .volunteer-content {
     display: flex;
     flex-direction: column;
-    flex:1;
-    flex-shrink: 0;
+    flex: 1;
 }
 
 .volunteer .button {
@@ -166,7 +166,6 @@ figure {
     padding: 5px 15px;
     text-align: center;
     width: 100px;
-    flex-basis: auto;
     flex-shrink: 0;
 }
 
