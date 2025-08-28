@@ -54,7 +54,7 @@ h1 {
 
 .content-and-image {
     display: flex;
-    justify-content: center;;
+    justify-content: center;
     align-items: flex-start;
     gap: 60px;
     margin: 100px 0;
@@ -76,7 +76,7 @@ h1 {
 
 .content .button {
     background-color: #3882F6;
-    color: white;
+    color: #E5E7EB;
     padding: 10px 10px;
     font-size: 18px;
     font-weight: bold;
@@ -148,15 +148,27 @@ figure {
     background-color: #3882F6;
     margin: 50px 200px;
     padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    color: #E5E7EB;
+    border-radius: 10px;
 }
 
 .volunteer-content {
     display: flex;
     flex-direction: column;
+    flex:1;
+    flex-shrink: 0;
 }
 
 .volunteer .button {
-    padding: 10px 10px;
-    align-items: flex-end;
-    justify-content: center;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 5px 15px;
+    text-align: center;
+    width: 100px;
+    flex-basis: auto;
+    flex-shrink: 0;
 }
